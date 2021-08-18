@@ -1,13 +1,13 @@
 # Sorting the array in Bash
 # using Bubble sort
 # Static input of Array
-arr=(10 8 20 100 12)
+arr=(10 8 20 100 12 56)
 
 echo "Array in original order"
 echo ${arr[*]}
 
 # Performing Bubble sort
-for ((i = 0; i<5; i++))
+for ((i = 0; i<6; i++))
 do
     for((j = 0; j<5-i-1; j++))
     do
